@@ -3,10 +3,10 @@
     "name": "ProGaming",
     "slug": "progaming-app",
     "version": "1.0.0",
-    "icon": "./icon.png",
     "orientation": "portrait",
+    "icon": "./icon.png",
     "userInterfaceStyle": "dark",
-    "ios": { 
+    "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.yusuf.progaming"
     },
@@ -17,8 +17,11 @@
         "backgroundColor": "#000000"
       }
     },
-    "plugins": ["expo-router"]
+    "plugins": ["expo-router"],
+    "extra": {
+      "eas": {
+        "projectId": "858882ca-8c8c-4a11-8583-93d4323b778d"
+      }
+    }
   }
 }
-
-
