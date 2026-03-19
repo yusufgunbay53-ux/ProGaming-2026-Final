@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "ProGaming",
+    "slug": "progaming-app",
+    "version": "1.0.0",
+    "icon": "./icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": { 
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yusuf.progaming"
+    },
+    "android": {
+      "package": "com.yusuf.progaming",
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "plugins": ["expo-router"]
+  }
+}
+
+
