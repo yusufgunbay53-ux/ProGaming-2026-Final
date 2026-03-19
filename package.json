@@ -2,6 +2,12 @@
   "name": "progaming",
   "version": "1.0.0",
   "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
   "dependencies": {
     "expo": "~50.0.0",
     "expo-router": "~3.4.7",
@@ -24,3 +30,4 @@
   },
   "private": true
 }
+
